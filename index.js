@@ -11,8 +11,15 @@ class App extends Component {
   constructor() {
     super();
     this.state = {
-      name: 'React'
+      name: 'React',
+      isVisible : true
     };
+  }
+
+ toggleButton = () => {
+    this.setState((state,props) => {
+      return {...state, isVisible : !state.isVisible}
+    });
   }
 
   render() { 
@@ -21,7 +28,8 @@ class App extends Component {
         {/* <AppRouter/> */}
         {/* <NestedRouter/> */}
         {/*<Parent/>*/}
-        <LifeCycleMethods/>
+        {this.state.isVisible ? <LifeCycleMethods/> : null}
+        <button onClick={this.toggleButton}>Remove LifeCycleMethods</button>
       </div>
     );
   }

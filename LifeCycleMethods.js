@@ -21,8 +21,22 @@ class Parent extends Component {
     return true; 
   }
 
+  getSnapshotBeforeUpdate(prevProps, prevState) {
+    console.log(`getSnapshotBeforeUpdate() prevState: ${prevState.counter}`);
+
+    return {name:'arul'};
+  }
+
+  componentDidUpdate(prevProps, prevState, snapshot){
+    console.log(`componentDidUpdate() ${prevState.counter} and snapshot:  ${JSON.stringify(snapshot)}`);
+  }
+
   componentDidMount() {
     console.log(`ComponentDidMount() ${this.state.counter}`);
+  }
+
+  componentWillUnmount() {
+    console.log(`componentWillUnmount() ${this.state.counter}`);
   }
 
 
