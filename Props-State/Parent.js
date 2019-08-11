@@ -1,6 +1,15 @@
 import React, {Component} from "react";
 import Child from './Child'; 
 
+const toggleStyle = {
+  padding : '10px',
+  borderRadius : '5px',
+  color : 'white',
+  border : '0',
+  cursor : 'pointer',
+  outline : 'none'
+}
+
 class Parent extends Component {
   constructor() {
     this.state = {
@@ -18,15 +27,15 @@ class Parent extends Component {
 
   render() {
 
-    const toggleStyle = {
-      padding : '10px',
-      borderRadius : '5px',
-      color : 'white',
-      border : 0,
-      backgroundColor : this.state.toggle ? 'green' : 'red',
-      cursor : 'pointer',
-      outline : 'none'
-    }
+    // const toggleStyle = {
+    //   padding : '10px',
+    //   borderRadius : '5px',
+    //   color : 'white',
+    //   border : 0,
+    //   backgroundColor : this.state.toggle ? 'green' : 'red',
+    //   cursor : 'pointer',
+    //   outline : 'none'
+    // }
     return (
       <div>
         <h1>From Parent</h1>
