@@ -1,0 +1,14 @@
+.buttonClass {
+    padding : 10px;
+    border-radius : 5px;
+    color : white;
+    border : 0;
+    cursor : pointer;
+    outline : none;
+}
+.buttonClass.on{
+  background-color: green;
+}
+.buttonClass.off{
+  background-color: red;
+}

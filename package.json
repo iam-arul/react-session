@@ -3,9 +3,11 @@
   "version": "0.0.0",
   "private": true,
   "dependencies": {
+    "css-loader": "^3.2.0",
     "react": "^16.8.0",
     "react-dom": "^16.8.0",
-    "react-router-dom": "^5.0.1"
+    "react-router-dom": "^5.0.1",
+    "webpack": "^4.0.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -15,5 +17,6 @@
   },
   "devDependencies": {
     "react-scripts": "latest"
-  }
+  },
+  
 }

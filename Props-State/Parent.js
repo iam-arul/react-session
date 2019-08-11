@@ -1,14 +1,7 @@
 import React, {Component} from "react";
 import Child from './Child'; 
+import  './style.module.css';
 
-const toggleStyle = {
-  padding : '10px',
-  borderRadius : '5px',
-  color : 'white',
-  border : '0',
-  cursor : 'pointer',
-  outline : 'none'
-}
 
 class Parent extends Component {
   constructor() {
@@ -25,8 +18,9 @@ class Parent extends Component {
 
 
 
-  render() {
 
+  render() {
+    const toggleClass = this.state.toggle ? 'on' : 'off';
     // const toggleStyle = {
     //   padding : '10px',
     //   borderRadius : '5px',
@@ -39,7 +33,7 @@ class Parent extends Component {
     return (
       <div>
         <h1>From Parent</h1>
-        <button style= {toggleStyle} onClick={this.toggleButton}>Toggle</button>
+        <button className={`buttonClass ${toggleClass}`} onClick={this.toggleButton}>Toggle</button>
         <Child toggleState = {this.state.toggle}/>
       </div>
 
