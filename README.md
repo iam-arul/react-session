@@ -13,8 +13,6 @@
     - React use  
         - [React compiler](https://miro.medium.com/proxy/1*n08Bym1Kq5Fpj8ZTQ3XJqA.png)
         - [Angular compiler](https://miro.medium.com/proxy/1*2ceEIh-RDFExkD9ipvcC-A.png)
-    - React-router for routing
-    - Redux for state management
     - No build in rules to work with react compared to angular.
 4. [Basic concepts](#react-basic-concepts)
 
@@ -25,13 +23,16 @@
 - Props and state
 - Components
 - Class vs functionl componets
-- Life cycle Methods (Three type of Phase)
+- Life cycle Methods (Three type of Phase) 
    ``` 
     - Mouting
     - Updating 
     - Unmounting 
     ```
+    [Diagram](http://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/)
 - [Event handler](https://codepen.io/anon/pen/qePwjZ?editors=0010)
+- React-router for routing
+- Redux for state management
 
 
 
