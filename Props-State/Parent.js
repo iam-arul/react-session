@@ -9,17 +9,29 @@ class Parent extends Component {
   }
 
   toggleButton = () => {
-    this.state()
+    this.setState((state,props) => {
+      return {...state, toggle : !state.toggle}
+    });
   }
 
 
 
   render() {
+
+    const toggleStyle = {
+      padding : '10px',
+      borderRadius : '5px',
+      color : 'white',
+      border : 0,
+      backgroundColor : this.state.toggle ? 'green' : 'red',
+      cursor : 'pointer',
+      outline : 'none'
+    }
     return (
       <div>
         <h1>From Parent</h1>
-        <button onClick={this.toggleButton()}>Toggle</button>
-        <Child toggleState = {}/>
+        <button style= {toggleStyle} onClick={this.toggleButton}>Toggle</button>
+        <Child toggleState = {this.state.toggle}/>
       </div>
 
     )

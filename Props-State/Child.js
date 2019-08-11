@@ -1,8 +1,13 @@
 import React from "react";
 
-function Child(props) {
+const Child = function(props) {
+  const ToggleDiv = props.toggleState ? 
+  <div>IS toggled</div> : <div>IS not toggled</div>
   return (
-    <h2>Child Component</h2>
+    <div>
+      <h2>Child Component</h2>
+      {ToggleDiv}
+    </div>
   );
 }
 
