@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { render } from 'react-dom';
 import AppRouter from './AppRouter';
+import LifeCycleMethods from './LifeCycleMethods';
 import NestedRouter from './NestedRouter';
 import Parent from './Props-State/Parent';
 
@@ -19,7 +20,8 @@ class App extends Component {
       <div>
         {/* <AppRouter/> */}
         {/* <NestedRouter/> */}
-        <Parent/>
+        {/*<Parent/>*/}
+        <LifeCycleMethods/>
       </div>
     );
   }
