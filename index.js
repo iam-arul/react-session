@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { render } from 'react-dom';
 import AppRouter from './AppRouter';
+import NestedRouter from './NestedRouter';
 import './style.css';
 
 class App extends Component {
@@ -14,7 +15,8 @@ class App extends Component {
   render() {
     return (
       <div>
-        <AppRouter/>
+        {/* <AppRouter/> */}
+        <NestedRouter/> 
       </div>
     );
   }
