@@ -30,6 +30,9 @@
     - Unmounting 
     ```
     [Diagram](http://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/)
+- Hooks (Added in react 16.8v)
+  - useState 
+  - useEffect 
 - [Event handler](https://codepen.io/anon/pen/qePwjZ?editors=0010)
 - React-router for routing
 - Redux for state management
