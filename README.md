@@ -25,7 +25,12 @@
 - Props and state
 - Components
 - Class vs functionl componets
-- Life cycle hooks
+- Life cycle Methods (Three type of Phase)
+   ``` 
+    - Mouting
+    - Updating 
+    - Unmounting 
+    ```
 - [Event handler](https://codepen.io/anon/pen/qePwjZ?editors=0010)
 
 
