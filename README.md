@@ -36,6 +36,6 @@
 - [Event handler](https://codepen.io/anon/pen/qePwjZ?editors=0010)
 - React-router for routing
 - Redux for state management
-
+- [React Session code](https://stackblitz.com/edit/react-session)
 
 
