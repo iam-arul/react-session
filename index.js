@@ -6,7 +6,7 @@ import Parent from './Props-State/Parent';
 
 import './style.css';
 
-class App extends Component {
+class App extends Component { 
   constructor() {
     super();
     this.state = {
