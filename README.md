@@ -9,8 +9,8 @@
     - It has testing tool (Developer tools)
     - Easy to learn
     - Lightweight Library
-        - [React compiler](https://miro.medium.com/proxy/1*n08Bym1Kq5Fpj8ZTQ3XJqA.png)
-        - [Angular compiler](https://miro.medium.com/proxy/1*2ceEIh-RDFExkD9ipvcC-A.png)
+    - [React compiler](https://miro.medium.com/proxy/1*n08Bym1Kq5Fpj8ZTQ3XJqA.png)
+    - [Angular compiler](https://miro.medium.com/proxy/1*2ceEIh-RDFExkD9ipvcC-A.png)
     - No build in rules to work with react compared to angular.
 4. [Basic concepts](#react-basic-concepts)
 
